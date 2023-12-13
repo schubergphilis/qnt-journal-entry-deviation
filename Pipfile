@@ -42,5 +42,5 @@ exceptiongroup = "*"
 
 [scripts]
 isort = "nbqa isort ./"
-ruff = "nbqa ruff --extend-ignore=E402 ./"
+ruff = "nbqa ruff ./"
 nblint = "pynblint ./journal-entry.ipynb -S"
