@@ -38,6 +38,7 @@ python-dotenv = "*"
 [quality]
 pynblint = "*"
 nbqa = {extras = ["toolchain"], version = "*"}
+ipython = "*"
 
 [scripts]
 isort = "nbqa isort ./"
